@@ -408,7 +408,7 @@ hold on
 errorbar([mean_ll mean_c mean_s],[std_ll std_c std_s],'r.' , 'LineWidth' , 2);
 ylabel('Joule');
 hold off
-labels = {'LP','CP' , 'SP'};
+labels = {'LP','CP' , 'SL'};
 set(gca , 'xticklabel' , labels);
 set(gca , 'fontsize' , 20);
 
@@ -419,6 +419,6 @@ errorbar([mean_ll_n mean_c_n mean_s_n],[std_ll_n std_c_n std_s_n],'r.' , 'LineWi
 ylabel('Number of queries');
 hold off
 
-labels = {'LP','CP' , 'SP'};
+labels = {'LP','CP' , 'SL'};
 set(gca , 'xticklabel' , labels);
 set(gca , 'fontsize' , 20);
