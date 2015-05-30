@@ -410,7 +410,7 @@ ylabel('Joule');
 hold off
 labels = {'LP','CP' , 'SP'};
 set(gca , 'xticklabel' , labels);
-set(gca , 'fontsize' , 16);
+set(gca , 'fontsize' , 20);
 
 figure('Position',[440 378 560 620/3]);
 bar([mean_ll_n mean_c_n mean_s_n]);
@@ -421,4 +421,4 @@ hold off
 
 labels = {'LP','CP' , 'SP'};
 set(gca , 'xticklabel' , labels);
-set(gca , 'fontsize' , 16);
+set(gca , 'fontsize' , 20);
